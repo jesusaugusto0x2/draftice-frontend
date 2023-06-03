@@ -1,0 +1,15 @@
+@use "../styles/variables" as vars;
+
+.Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: calc(100vh - 16px);
+  color: vars.$primary-color;
+
+  h1,
+  h3 {
+    margin: 6px 0;
+  }
+}
